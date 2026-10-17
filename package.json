@@ -1,0 +1,1 @@
+{"name":"void-ship-graphql-trails-1017","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.js"},"dependencies":{"graphql":"17.0.2"}}

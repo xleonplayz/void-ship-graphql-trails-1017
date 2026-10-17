@@ -1,0 +1,2 @@
+[apps."."]
+ports = [{ port = 3290, proto = "http" }]
