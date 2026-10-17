@@ -1,5 +1,11 @@
 import http from 'node:http';
-import {buildSchema, parse, validate, execute, getOperationAST, GraphQLError, version} from 'graphql';
+import {buildSchema} from 'graphql/utilities/buildASTSchema.js';
+import {parse} from 'graphql/language/parser.js';
+import {validate} from 'graphql/validation/validate.js';
+import {execute} from 'graphql/execution/execute.js';
+import {getOperationAST} from 'graphql/utilities/getOperationAST.js';
+import {GraphQLError} from 'graphql/error/GraphQLError.js';
+import {version} from 'graphql/version.js';
 import {trails} from './catalog.js';
 import {RELEASE, BOOKING_FEE_CENTS} from './policy.js';
 import {HTML, CLIENT} from './ui.js';

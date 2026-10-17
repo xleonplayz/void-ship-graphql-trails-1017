@@ -8,6 +8,8 @@ Run `npm ci && npm start`; open http://localhost:3290. `PORT` can override the p
 
 Library documentation: https://www.graphql-js.org/docs/ . The HTTP adapter is this application's code; it does not claim full GraphQL-over-HTTP conformance. Request bodies use ordinary Node data/end/error events because the observed Dev compiler rejected async iteration in an earlier independent CSV case.
 
+The initial Dev compiler crashed with a stack overflow when importing the package root. The next comparison changes only these imports to the package's exported individual modules, retaining the exact upstream version, schema, resolvers and UI. This is a compatibility experiment, not a confirmed remedy.
+
 Release 1 has a 900-cent group fee. Release 2 changes only `policy.js` to a 1200-cent group fee, providing a visible deploy-version and shared-pricing check.
 
 Deploy to Dev using `lly init xleonplayz/void-ship-graphql-trails-1017 --name void-ship-graphql-trails-1017 --all --config lily.toml -y --detach`; expose the app's HTTP port after deployment completes. Browser and platform evidence lives outside this public repository in Lane Ship's evidence directory.
